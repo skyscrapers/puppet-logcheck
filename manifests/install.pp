@@ -25,6 +25,6 @@ class logcheck::install {
 
   package {
     $packagelist:
-      ensure => latest;
+      ensure => absent;
   }
 }
